@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111522">
+  <meta name="description" content="Uma trilha gratuita e prática para aprender HTML, CSS, JavaScript e Python do zero.">
+  <title>Dev a Bordo — aprenda programação na prática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#trilha">Pular para a trilha</a>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Dev a Bordo, início">
+      <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+      <span>dev<span class="brand-light">a bordo</span></span>
+    </a>
+    <nav class="top-nav" aria-label="Navegação principal">
+      <a href="#trilha">A trilha</a>
+      <a href="#como-funciona">Como funciona</a>
+    </nav>
+    <a class="nav-cta" href="#trilha">Começar a estudar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> SEU PRIMEIRO PASSO COMEÇA AQUI</p>
+        <h1 id="hero-title">Do primeiro <span class="code-word">&lt;olá&gt;</span><br>ao seu próximo <span class="highlight">projeto.</span></h1>
+        <p class="hero-description">Uma trilha feita para quem está começando. Aprenda desenvolvimento web e Python no seu ritmo, com exemplos claros e exercícios para praticar de verdade.</p>
+        <a class="primary-button" href="#trilha">Explorar a trilha <span aria-hidden="true">↓</span></a>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>H</span><span>C</span><span>JS</span><span>Py</span></div>
+          <span>Trilha completa, <strong><span id="hero-lesson-count">28</span> aulas</strong> e exercícios em cada etapa</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Exemplo de código HTML">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>meu-primeiro-site.html</span><span class="window-menu">•••</span></div>
+          <pre><code><span class="code-muted">01</span>  <span class="syntax-purple">&lt;main&gt;</span>
+<span class="code-muted">02</span>    <span class="syntax-purple">&lt;h1&gt;</span><span class="syntax-green">Oi, mundo!</span><span class="syntax-purple">&lt;/h1&gt;</span>
+<span class="code-muted">03</span>    <span class="syntax-purple">&lt;p&gt;</span><span class="syntax-green">Meu primeiro site.</span><span class="syntax-purple">&lt;/p&gt;</span>
+<span class="code-muted">04</span>    <span class="syntax-purple">&lt;button&gt;</span>
+<span class="code-muted">05</span>      <span class="syntax-yellow">Bora aprender</span>
+<span class="code-muted">06</span>    <span class="syntax-purple">&lt;/button&gt;</span>
+<span class="code-muted">07</span>  <span class="syntax-purple">&lt;/main&gt;</span></code></pre>
+          <div class="code-window-footer"><span><span class="live-dot"></span> tudo começa com uma linha</span><span>HTML · 7 linhas</span></div>
+        </div>
+        <div class="floating-note note-top"><span class="note-icon">✳</span><span>Feito para<br><strong>iniciantes</strong></span></div>
+        <div class="floating-note note-bottom"><span class="note-icon note-icon-green">✓</span><span>Aprenda no<br><strong>seu ritmo</strong></span></div>
+        <span class="hero-sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="hero-sparkle sparkle-two" aria-hidden="true">✦</span>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span>04</span></div>
+    </section>
+
+    <section class="stats-strip" aria-label="Sobre a trilha">
+      <div><span class="stat-number" id="stats-lesson-count">28</span><span>aulas passo a passo</span></div>
+      <div><span class="stat-number" id="stats-question-count">28</span><span>questões para praticar</span></div>
+      <div><span class="stat-number">04</span><span>linguagens e fundamentos</span></div>
+      <div class="stats-message"><span class="live-dot"></span> Grátis e no seu tempo</div>
+    </section>
+
+    <section class="learning-section" id="trilha" aria-labelledby="trilha-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 — SEU MAPA DE APRENDIZADO</p>
+          <h2 id="trilha-title">O próximo passo é <span class="highlight">seu.</span></h2>
+          <p class="section-intro">Escolha uma matéria, explore a aula e teste o que aprendeu. Não precisa saber nada antes de começar.</p>
+        </div>
+        <div class="progress-card" aria-live="polite">
+          <div class="progress-top"><span>Seu progresso</span><strong id="progress-label">0 de 28 aulas</strong></div>
+          <div class="progress-track" role="progressbar" aria-label="Progresso da trilha" aria-valuemin="0" aria-valuemax="28" aria-valuenow="0"><span id="progress-fill"></span></div>
+          <span class="progress-hint" id="progress-hint">Toda jornada começa com uma aula.</span>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <div class="filter-list" role="group" aria-label="Filtrar aulas por matéria">
+          <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">Todas <span>28</span></button>
+          <button class="filter-chip" type="button" data-filter="web" aria-pressed="false">HTML &amp; CSS <span>13</span></button>
+          <button class="filter-chip" type="button" data-filter="javascript" aria-pressed="false">JavaScript <span>5</span></button>
+          <button class="filter-chip" type="button" data-filter="python" aria-pressed="false">Python <span>10</span></button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <span class="visually-hidden">Buscar aulas</span>
+          <input id="lesson-search" type="search" placeholder="Buscar uma aula..." autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+      </div>
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+      <div class="lesson-grid" id="lesson-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>Nenhuma aula encontrada. Tente outro termo ou filtro.</p>
+      <p class="storage-notice" id="storage-notice" role="status" hidden></p>
+    </section>
+
+    <section class="how-section" id="como-funciona">
+      <div class="how-heading">
+        <p class="eyebrow">02 — SEM COMPLICAÇÃO</p>
+        <h2>Aprender funciona<br><span class="highlight">assim.</span></h2>
+      </div>
+      <div class="how-steps">
+        <article class="how-step"><span class="step-number">01</span><div><h3>Escolha uma aula</h3><p>Comece pelo básico ou vá direto ao assunto que quer praticar.</p></div><span class="step-icon" aria-hidden="true">⌘</span></article>
+        <article class="how-step"><span class="step-number">02</span><div><h3>Leia e experimente</h3><p>Entenda a ideia com explicações simples e exemplos de código.</p></div><span class="step-icon" aria-hidden="true">{ }</span></article>
+        <article class="how-step"><span class="step-number">03</span><div><h3>Responda e evolua</h3><p>Faça a questão, confira a explicação e marque sua aula concluída.</p></div><span class="step-icon" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="closing-banner">
+      <span class="closing-decoration" aria-hidden="true">✳</span>
+      <div><p class="eyebrow">SEU PRÓXIMO PROJETO COMEÇA AQUI</p><h2>Curiosidade você já tem.<br><span>Agora falta começar.</span></h2></div>
+      <a class="primary-button" href="#trilha">Escolher minha primeira aula <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>dev<span class="brand-light">a bordo</span></span></a><span>Um passo de cada vez. Um código de cada vez.</span><a href="#hero-title">Voltar ao topo ↑</a></footer>
+</body>
+</html>
